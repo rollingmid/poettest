@@ -13,6 +13,7 @@ colorama = "^0.4.6"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.13.2"
+flake8 = "^6.0.0"
 
 [tool.poetry.scripts]
 say-hello = "test_poetry.scripts.say_hello:main"
